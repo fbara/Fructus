@@ -21,6 +21,9 @@
 		AD4116E92714DED400C55DCF /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4116E82714DED400C55DCF /* StartButtonView.swift */; };
 		AD4116EB2714E19500C55DCF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4116EA2714E19500C55DCF /* OnboardingView.swift */; };
 		ADAC65CA2718AD020014C3A9 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC65C92718AD020014C3A9 /* FruitNutrientsView.swift */; };
+		ADAC65CC2718B0C90014C3A9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC65CB2718B0C90014C3A9 /* SettingsView.swift */; };
+		ADAC65CE2718B4010014C3A9 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC65CD2718B4010014C3A9 /* SettingsLabelView.swift */; };
+		ADAC65D22718B7380014C3A9 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAC65D12718B7380014C3A9 /* SettingsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		AD4116E82714DED400C55DCF /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		AD4116EA2714E19500C55DCF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		ADAC65C92718AD020014C3A9 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		ADAC65CB2718B0C90014C3A9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		ADAC65CD2718B4010014C3A9 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		ADAC65D12718B7380014C3A9 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +114,11 @@
 		AD4116E42714D9CB00C55DCF /* App */ = {
 			isa = PBXGroup;
 			children = (
+				AD084AC427176C0B00477D85 /* FruitDetailView.swift */,
 				AD4116D52714D37600C55DCF /* FructusApp.swift */,
 				AD4116D72714D37600C55DCF /* ContentView.swift */,
 				AD4116EA2714E19500C55DCF /* OnboardingView.swift */,
+				ADAC65CB2718B0C90014C3A9 /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -121,10 +129,11 @@
 				AD4116E62714DA1C00C55DCF /* FruitCardView.swift */,
 				AD4116E82714DED400C55DCF /* StartButtonView.swift */,
 				AD084AC2271735E800477D85 /* FruitRowView.swift */,
-				AD084AC427176C0B00477D85 /* FruitDetailView.swift */,
 				AD084AC627176E9D00477D85 /* FruitHeaderView.swift */,
 				AD084AC82717703A00477D85 /* SourceLinkView.swift */,
 				ADAC65C92718AD020014C3A9 /* FruitNutrientsView.swift */,
+				ADAC65CD2718B4010014C3A9 /* SettingsLabelView.swift */,
+				ADAC65D12718B7380014C3A9 /* SettingsRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,6 +210,7 @@
 			files = (
 				AD084AC12717266800477D85 /* FruitData.swift in Sources */,
 				AD084AC92717703A00477D85 /* SourceLinkView.swift in Sources */,
+				ADAC65D22718B7380014C3A9 /* SettingsRowView.swift in Sources */,
 				AD4116E72714DA1C00C55DCF /* FruitCardView.swift in Sources */,
 				AD084AC3271735E800477D85 /* FruitRowView.swift in Sources */,
 				ADAC65CA2718AD020014C3A9 /* FruitNutrientsView.swift in Sources */,
@@ -209,8 +219,10 @@
 				AD4116D82714D37600C55DCF /* ContentView.swift in Sources */,
 				AD084AC727176E9D00477D85 /* FruitHeaderView.swift in Sources */,
 				AD4116EB2714E19500C55DCF /* OnboardingView.swift in Sources */,
+				ADAC65CE2718B4010014C3A9 /* SettingsLabelView.swift in Sources */,
 				AD084ABE271724BE00477D85 /* FruitModel.swift in Sources */,
 				AD4116D62714D37600C55DCF /* FructusApp.swift in Sources */,
+				ADAC65CC2718B0C90014C3A9 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
